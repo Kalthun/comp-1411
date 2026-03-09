@@ -1,3 +1,6 @@
+# Custom
+.direnv
+
 # Prerequisites
 *.d
 
