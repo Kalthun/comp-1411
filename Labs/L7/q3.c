@@ -12,7 +12,7 @@ void displayPattern(int numOfLines) {
         for (int star = 0; star < (2 * row + 1); star++)
             printf("* ");
 
-        putchar('\n');
+        putchar('\n'); // vertical padding
     }
 }
 
