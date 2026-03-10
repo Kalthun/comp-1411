@@ -6,7 +6,10 @@ int main() {
 
     double radius;
     printf("Input radius: ");
-    scanf("%lf", &radius);
+    if (scanf("%lf", &radius) != 1) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     putchar('\n'); // vertical padding
 

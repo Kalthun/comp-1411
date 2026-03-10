@@ -8,7 +8,10 @@ int main() {
 
     // Load the input stream
     puts("Input a sequence of 3 positive integers:");
-    scanf("%d%d%d", &a, &b, &c);
+    if (scanf("%d%d%d", &a, &b, &c) != 3) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     if (a == b && b == c) {
         puts("equilateral");

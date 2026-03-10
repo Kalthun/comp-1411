@@ -5,7 +5,10 @@ void wreBaW() {
     char input;
 
     // BREAK CASE
-    if (scanf("%c", &input) != 1) return;
+    if (scanf("%c", &input) != 1) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     // BASE CASE
     if (input == '\n') return;

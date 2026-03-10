@@ -4,11 +4,17 @@ int main() {
 
     int a;
     printf("Input a number: ");
-    scanf("%d", &a);
+    if (scanf("%d", &a) != 1) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     int b;
     printf("Input another number: ");
-    scanf("%d", &b);
+    if (scanf("%d", &b) != 1) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     putchar('\n'); // vertical padding
 

@@ -9,7 +9,10 @@ int main() {
 
     // Load the input stream
     puts("Input a sequence of 3 integers:");
-    scanf("%d%d%d", &a, &b, &c);
+    if (scanf("%d%d%d", &a, &b, &c) != 3) {
+        printf("ERROR: invalid input.");
+        return 1;
+    }
 
     int max_ab = ((a + b) + abs(a - b)) / 2;
 
