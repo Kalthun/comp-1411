@@ -25,7 +25,7 @@ int main() {
     int count = 0;
     char input;
 
-    while (1) {
+    while (1) { // <-- ∞ loop
 
         if (scanf("%c", &input) != 1) {
             puts("ERROR: invalid input.");

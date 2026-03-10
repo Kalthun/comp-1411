@@ -8,7 +8,7 @@ void sum() {
     double sum = 0.0;
     double input;
 
-    while (1) {
+    while (1) { // <-- ∞ loop
 
         printf("Current Sum: %lf\n", sum);
         printf("Number? ");

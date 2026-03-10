@@ -9,7 +9,7 @@ int main() {
     double total_gas_used = 0;
     char choice;
 
-    while (1) {
+    while (1) { // <-- ∞ loop
 
         puts("===");
         printf("TRIP %d\n", counter);
@@ -69,7 +69,7 @@ int main() {
 
             puts("ERROR: invalid input.");
 
-        } while (1);
+        } while (1); // <-- ∞ loop
 
         counter++;
         puts("===");
