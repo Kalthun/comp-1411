@@ -5,14 +5,14 @@ int main() {
     int a;
     printf("Input a number: ");
     if (scanf("%d", &a) != 1) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 
     int b;
     printf("Input another number: ");
     if (scanf("%d", &b) != 1) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 

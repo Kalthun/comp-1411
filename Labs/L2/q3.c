@@ -7,7 +7,7 @@ int main() {
     double radius;
     printf("Input radius: ");
     if (scanf("%lf", &radius) != 1) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 

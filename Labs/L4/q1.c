@@ -9,7 +9,7 @@ int main() {
     // Load the input stream
     puts("Input a sequence of 3 integers:");
     if (scanf("%d%d%d", &a, &b, &c) != 3) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 

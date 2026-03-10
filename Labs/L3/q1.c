@@ -12,13 +12,13 @@ int main() {
 
     printf("Input Total Hours Worked: ");
     if (scanf("%lf", &total_hours_worked); != 1) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 
     printf("Input Hourly Wage: ");
     if (scanf("%lf", &hourly_wage)) {
-        printf("ERROR: invalid input.");
+        puts("ERROR: invalid input.");
         return 1;
     }
 
