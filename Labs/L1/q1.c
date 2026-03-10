@@ -45,9 +45,11 @@ int main(void)
 
 // Output
 /*
-    The value of sum is initially set to 0
-      sum is now 90
-      sum is now 160
-      sum is now 240
-      The final sum is 300
+```
+The value of sum is initially set to 0
+  sum is now 90
+  sum is now 160
+  sum is now 240
+  The final sum is 300
+```
 */
