@@ -6,3 +6,15 @@ I use the following command when executing any of the `.c` files in this reposit
 ```
 gcc -Wall -Wextra -std=c11 ${FILENAME} -lm -o exe_${FILENAME_WO_EXT} && ./exe_${FILENAME_WO_EXT}
 ```
+- `gcc`
+- `-Wal`
+- `-Wextra`
+- `-std=c11`
+- `${}`
+- `FILENAME`
+- `FILENAME_WO_EXT`
+- `-lm`
+- `-o`
+- `exe_`
+- `&&`
+- `./`

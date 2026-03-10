@@ -8,8 +8,7 @@ int gcd(int a, int b) {
     b = abs(b);
 
     // BASE CASE
-    if (b == 0)
-        return a;
+    if (b == 0) return a;
 
     // RECURSIVE CASE
     return gcd(b, a % b);
