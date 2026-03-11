@@ -18,7 +18,7 @@ int main() {
     int minutes = seconds % 3600 / 60;
     int leftover_seconds = seconds % 60;
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("%d => %dh:%dm:%ds\n", seconds, hours, minutes, leftover_seconds);
 

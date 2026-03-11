@@ -16,7 +16,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("distance ≈ %.2lf\n", 0.5 * GRAVITY * seconds * seconds);
 

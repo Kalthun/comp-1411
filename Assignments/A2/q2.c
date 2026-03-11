@@ -16,7 +16,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     if (x == 0 && y == 0) printf("(0,0) is the origin.\n");
     else if (x == 0) printf("(0,%d) is on the y-axis.\n", y);

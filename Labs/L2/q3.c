@@ -11,7 +11,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("Diameter = 2r = %lf\n", 2 * radius);
     printf("Circumference = 2πr = %lf\n", 2 * PI * radius);

@@ -4,11 +4,11 @@ int main() {
 
     printf("%s\n", "1 2 3 4");
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("%d %d %d %d\n", 1, 2, 3, 4);
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("1 ");
     printf("2 ");

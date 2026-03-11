@@ -42,9 +42,9 @@ int main() {
 
         total_gas_used += gas_used;
 
-        putchar('\n'); // vertical padding
+        putchar('\n');
         printf("TRIP %d MPG ≈ %.2lf\n", counter, miles_driven/gas_used);
-        putchar('\n'); // vertical padding
+        putchar('\n');
 
         do {
 
@@ -52,7 +52,7 @@ int main() {
 
             if (scanf(" %c", &choice) != 1) { // <-- notice the ' ' before %c
                 puts("ERROR: invalid input.");
-                putchar('\n'); // vertical padding
+                putchar('\n');
                 continue;
             }
 
@@ -69,7 +69,7 @@ int main() {
 
         counter++;
         puts("===");
-        putchar('\n'); // vertical padding
+        putchar('\n');
     }
 
 done: // <-- jump here from `goto done`

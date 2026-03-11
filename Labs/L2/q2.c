@@ -16,7 +16,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("SUM: %d + %d = %d\n", a, b, a + b);
     printf("PRODUCT: %d * %d = %d\n", a, b, a * b);

@@ -10,7 +10,7 @@ void displayPattern(int numOfLines) {
         // stars
         for (int star = 0; star < (2 * row + 1); star++) printf("* ");
 
-        putchar('\n'); // vertical padding
+        putchar('\n');
     }
 }
 
@@ -19,17 +19,17 @@ int main() {
     puts("===Test 1===");
     displayPattern(1);
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     puts("===Test 2===");
     displayPattern(4);
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     puts("===Test 3===");
     displayPattern(7);
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     return 0;
 }

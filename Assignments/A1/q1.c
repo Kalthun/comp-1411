@@ -23,7 +23,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("char (%%c): %c\n", input_char);
     printf("char (%%d): %d\n", input_char);

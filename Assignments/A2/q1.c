@@ -38,7 +38,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("# of containers = %d\n", cookie_count / box_capacity / container_capacity);
     printf("# of boxes = %d\n", cookie_count / box_capacity);

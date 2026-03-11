@@ -14,7 +14,7 @@ int main() {
         return 1;
     }
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     printf("# of candy bars = %d\n", coupon_count / 10);
     printf("# of gumballs = %d\n", coupon_count % 10 / 3);
