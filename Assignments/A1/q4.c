@@ -9,8 +9,8 @@ int main() {
         return 1;
     }
 
-    if (seconds < 1) {
-        puts("ERROR: # of seconds must be > 0.");
+    if (seconds < 0) {
+        puts("ERROR: # of seconds must be >= 0.");
         return 1;
     }
 

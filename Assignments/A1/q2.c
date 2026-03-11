@@ -9,8 +9,8 @@ int main() {
         return 1;
     }
 
-    if (coupons < 1) {
-        puts("ERROR: # of coupons must be > 0.");
+    if (coupons < 0) {
+        puts("ERROR: # of coupons must be >= 0.");
         return 1;
     }
 
