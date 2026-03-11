@@ -19,11 +19,11 @@ bool isVowel(char c) {
 
 int main() {
 
-    // Load the input stream
-    puts("Input a sequence of characters:");
-
     int count = 0;
     char input;
+
+    // Load the input stream
+    puts("Input a sequence of characters:");
 
     while (1) { // <-- ∞ loop
 

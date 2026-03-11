@@ -10,10 +10,10 @@ int main() {
     // Initialize largest with "-∞"
     int largest = INT_MIN;
 
+    int input;
+
     // Load the input stream
     puts("Input a sequence of integers:");
-
-    int input;
 
     while (1) { // <-- ∞ loop
 

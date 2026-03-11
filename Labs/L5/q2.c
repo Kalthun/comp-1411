@@ -2,9 +2,9 @@
 
 int main() {
 
-    int lines = 10;
+    int line_count = 10;
 
-    while (lines > 0) (lines-- % 2 == 0) ? puts("****") : puts("++++++++"); // <-- notice the trick?
+    while (line_count > 0) (line_count-- % 2 == 0) ? puts("****") : puts("++++++++"); // <-- notice the trick?
 
     return 0;
 }

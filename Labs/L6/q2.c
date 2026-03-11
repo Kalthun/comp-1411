@@ -2,11 +2,11 @@
 
 void sum() {
 
-    puts("Enter Numbers to add to the sum.");
-    puts("Enter 0 to quit.");
-
     double sum = 0.0;
     double input;
+
+    puts("Enter Numbers to add to the sum.");
+    puts("Enter 0 to quit.");
 
     while (1) { // <-- ∞ loop
 
