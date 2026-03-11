@@ -14,9 +14,13 @@ int main() {
         return 1;
     }
 
+    int hours = seconds / 3600;
+    int minutes = seconds % 3600 / 60;
+    int leftover_seconds = seconds % 60;
+
     putchar('\n'); // vertical padding
 
-    printf("%d => %dh:%dm:%ds\n", seconds, seconds / 3600, seconds % 3600 / 60, seconds % 60);
+    printf("%d => %dh:%dm:%ds\n", seconds, hours, minutes, leftover_seconds);
 
     return 0;
 }
