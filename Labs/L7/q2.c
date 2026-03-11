@@ -30,7 +30,7 @@ int main() {
         if (scanf("%c", &input) != 1) {
             puts("ERROR: invalid input.");
             puts("Exiting...");
-            break;
+            return 1;
         }
 
         if (input == '\n') break;

@@ -11,7 +11,7 @@ int main() {
     while (getchar() != '\n'); // clear remaining input buffer
 
     printf("Input Total Hours Worked: ");
-    if (scanf("%lf", &total_hours_worked); != 1) {
+    if (scanf("%lf", &total_hours_worked) != 1) {
         puts("ERROR: invalid input.");
         return 1;
     }

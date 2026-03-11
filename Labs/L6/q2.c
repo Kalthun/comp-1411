@@ -15,7 +15,7 @@ void sum() {
 
         if (scanf("%lf", &input) != 1) {
             puts("ERROR: invalid input.");
-            break;
+            return;
         }
 
         if (input == 0) {
