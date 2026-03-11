@@ -12,6 +12,8 @@ int main() {
         return 1;
     }
 
+    putchar('\n');
+
     if (a == b && b == c) {
         puts("equilateral");
     } else if (a != b && a != c && b != c) {

@@ -6,6 +6,7 @@ int main() {
 
     int largest = INT_MIN; // <-- initialize with "-∞"
     int input;
+    int temp; // <-- int because getchar() returns int
 
     puts("Input a sequence of integers:");
 
@@ -18,8 +19,6 @@ int main() {
 
         if (input > largest) largest = input;
 
-        int temp; // <-- int because getchar() returns int
-
         // Loop until we hit a non-space character
         do { temp = getchar(); } while (temp == ' ' || temp == '\t');
 
@@ -29,6 +28,8 @@ int main() {
         // Otherwise undo changes to input stream
         ungetc(temp, stdin);
     }
+    
+    putchar('\n');
 
     printf("The largest integer is: %d\n", largest);
 

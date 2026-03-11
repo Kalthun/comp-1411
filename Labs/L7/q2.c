@@ -36,6 +36,8 @@ int main() {
         if (isVowel(input)) count++;
     }
 
+    putchar('\n');
+
     printf("# of vowels = %d\n", count);
 
     return 0;

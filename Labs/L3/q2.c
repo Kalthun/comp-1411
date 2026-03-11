@@ -18,6 +18,8 @@ int main() {
 
     int max_abc = ((max_ab + c) + abs(max_ab - c))/2;
 
+    putchar('\n');
+
     printf("max(%d,%d,%d) = %d\n", a, b, c, max_abc);
 
     return 0;
