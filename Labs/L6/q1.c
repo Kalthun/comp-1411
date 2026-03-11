@@ -28,7 +28,7 @@ int main() {
         // Otherwise undo changes to input stream
         ungetc(temp, stdin);
     }
-    
+
     putchar('\n');
 
     printf("The largest integer is: %d\n", largest);
