@@ -29,7 +29,6 @@ int main() {
 
         if (scanf("%c", &input) != 1) {
             puts("ERROR: invalid input.");
-            puts("Exiting...");
             return 1;
         }
 

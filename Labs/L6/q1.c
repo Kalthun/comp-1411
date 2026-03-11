@@ -4,9 +4,6 @@
 
 int main() {
 
-    // Track valid input
-    bool found = false;
-
     // Initialize largest with "-∞"
     int largest = INT_MIN;
 
@@ -19,11 +16,8 @@ int main() {
 
         if (scanf("%d", &input) != 1) {
             puts("ERROR: invalid input.");
-            puts("Exiting...");
-            break;
+            return -1;
         }
-
-        found = true;
 
         if (input > largest) largest = input;
 
@@ -39,8 +33,7 @@ int main() {
         ungetc(temp, stdin);
     }
 
-    if (found) printf("The largest integer is: %d\n", largest);
-    else puts("ERROR: no valid integers were entered.");
+    printf("The largest integer is: %d\n", largest);
 
     return 0;
 }

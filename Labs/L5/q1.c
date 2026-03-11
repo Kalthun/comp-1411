@@ -18,13 +18,11 @@ int main() {
 
         if (scanf("%lf", &miles_driven) != 1) {
             puts("ERROR: invalid input.");
-            puts("Exiting...");
             return 1;
         }
 
         if (miles_driven <= 0) {
             puts("ERROR: input must be > 0");
-            puts("Exiting...");
             return 1;
         }
 
@@ -34,13 +32,11 @@ int main() {
 
         if (scanf("%lf", &gas_used) != 1) {
             puts("ERROR: invalid input.");
-            puts("Exiting...");
             return 1;
         }
 
         if (gas_used <= 0) {
             puts("ERROR: input must be > 0");
-            puts("Exiting...");
             return 1;
         }
 
