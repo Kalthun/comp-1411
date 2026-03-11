@@ -60,7 +60,7 @@ int main() {
 
             if (choice == 'n' || choice == 'N') {
                 puts("===");
-                goto done; // <-- escape inner and outer loop
+                goto done; // <-- escape current and outer loop
             }
 
             puts("ERROR: invalid input.");
@@ -72,7 +72,7 @@ int main() {
         putchar('\n');
     }
 
-done: // <-- jump here from `goto done`
+done: // <-- jump here from `goto done;`
 
     printf("TOTAL MPG ≈ %.2lf\n", total_miles_driven/total_gas_used);
 

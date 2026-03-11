@@ -4,12 +4,9 @@
 
 int main() {
 
-    // Initialize largest with "-∞"
-    int largest = INT_MIN;
-
+    int largest = INT_MIN; // <-- initialize with "-∞"
     int input;
 
-    // Load the input stream
     puts("Input a sequence of integers:");
 
     while (1) { // <-- ∞ loop

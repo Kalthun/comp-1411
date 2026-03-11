@@ -19,7 +19,7 @@ int main() {
     puts("===Test 1===");
     printf("gcd(%d,%d) => %d\n", 6, 15, gcd(6,15));
 
-    putchar('\n'); // vertical padding
+    putchar('\n');
 
     puts("===Test 2===");
     printf("gcd(%d,%d) => %d\n", 15, 22, gcd(15,22));

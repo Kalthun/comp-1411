@@ -20,11 +20,11 @@ void wreBaW() {
 
 int main() {
 
-    // Load the input stream
     puts("Input a sequence of characters:");
 
     wreBaW();
-    putchar('\n'); // fix newline issue
+
+    putchar('\n');
 
     return 0;
 }

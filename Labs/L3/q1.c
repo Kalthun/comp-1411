@@ -5,6 +5,7 @@ int main() {
     char ID[11]; // extra space for `\0` (10 + 1)
     printf("Input Employee's ID (MAX 10 characters): ");
     fgets(ID, 11, stdin); // same as above (10 + 1)
+
     while (getchar() != '\n'); // clear remaining input buffer
 
     double total_hours_worked;
