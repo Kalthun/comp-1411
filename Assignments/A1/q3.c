@@ -18,7 +18,7 @@ int main() {
 
     putchar('\n');
 
-    printf("distance ≈ %.2lf\n", 0.5 * GRAVITY * seconds * seconds);
+    printf("distance ≃ %.2lf\n", 0.5 * GRAVITY * seconds * seconds);
 
     return 0;
 }

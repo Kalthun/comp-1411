@@ -43,7 +43,7 @@ int main() {
         total_gas_used += gas_used;
 
         putchar('\n');
-        printf("TRIP %d MPG ≈ %.2lf\n", counter, miles_driven/gas_used);
+        printf("TRIP %d MPG ≃ %.2lf\n", counter, miles_driven/gas_used);
         putchar('\n');
 
         do {
@@ -74,7 +74,7 @@ int main() {
 
 done: // <-- jump here from `goto done;`
 
-    printf("TOTAL MPG ≈ %.2lf\n", total_miles_driven/total_gas_used);
+    printf("TOTAL MPG ≃ %.2lf\n", total_miles_driven/total_gas_used);
 
     return 0;
 }
