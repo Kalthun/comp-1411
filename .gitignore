@@ -1,9 +1,10 @@
 # Custom
 .direnv
 exe_*
+demo/
+temp/
 
-L9
-A4
+A4/
 
 # Prerequisites
 *.d
