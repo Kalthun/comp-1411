@@ -45,9 +45,7 @@ void display(const int* x_array, const int* y_array, const int* z_array, int len
 
     printf("│ %7s │ %7s │ %7s │\n", "x", "y", "z");
 
-    for (int i = 0; i < length; i++) {
-        printf("│ %7d │ %7d │ %7d │\n", x_array[i], y_array[i], z_array[i]);
-    }
+    for (int i = 0; i < length; i++) printf("│ %7d │ %7d │ %7d │\n", x_array[i], y_array[i], z_array[i]);
 
     putchar('\n');
 

@@ -97,11 +97,8 @@ void display(const int* x_array, const int* y_array, const int* z_array, const i
         // Value row
         printf("│ %*d │ %*d │ %*d │\n", x_padding, x_array[i], y_padding, y_array[i], z_padding, z_array[i]);
 
-        if (i < length - 1) { // <-- not last row
-
-            // Middle of table
-            display_helper("├", "┼", "┤", x_padding, y_padding, z_padding);
-        }
+        // Middle of table
+        if (i < length - 1) display_helper("├", "┼", "┤", x_padding, y_padding, z_padding); // <-- if not last row
     }
 
     // Bottom of table
