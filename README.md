@@ -4,15 +4,14 @@ A repository to help students in COMP-1411 learn to program.
 ## Running Code
 
 ### Online
-I recommend using [this link](https://www.online-cpp.com) to run these files online (and for general use).
+I recommend using [this website](https://www.online-cpp.com) to run these files online (and for general use).
 
->[!IMPORTANT]
->Click on the ⚙️ icon and paste the following Command Line Arguments:
+>[!WARNING]
+>I have discovered that the issue with the website is related to your operating system. If it works with:
+>```c
+>#include <math.h>
 >```
->-Wall -Wextra -std=c11 -lm
->```
->
->![reference](reference.png)
+>keep using it. Otherwise, switch to using this [this website](https://www.onlinegdb.com).
 
 ### Local
 I use the following command when executing any of the `.c` files in this repository:
