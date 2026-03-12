@@ -1,4 +1,4 @@
-// SEE `fancy_version.c` BEFORE LOOKING AT THIS
+// SEE `advanced-version.c` BEFORE LOOKING AT THIS
 
 #include <stdio.h>
 #include <stdbool.h>
