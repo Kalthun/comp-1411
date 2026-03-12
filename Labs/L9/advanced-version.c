@@ -3,6 +3,7 @@
 #include <string.h>
 #include <math.h>
 #include <ctype.h>
+#include <limits.h>
 #include "library.h" // <-- custom functions
 
 #define MAX_ARRAY_SIZE 20
@@ -109,15 +110,15 @@ void display(const int* x_array, const int* y_array, const int* z_array, const i
     putchar('\n');
 
     int sum = 0;
-    int old_sum;
 
     for (int i = 0; i < length; i++) {
-        old_sum = sum;
-        sum += z_array[i];
-        if (sum < old_sum) {
+
+        if (z_array[i] > INT_MAX - sum) {
             puts("ERROR: summation overflow.");
             return;
         }
+
+        sum += z_array[i];
     }
 
     printf("√∑z = √%d ≃ %lf\n", sum, sqrt(sum));
@@ -140,12 +141,12 @@ int main() {
 
     for (int i = 0; i < length; i++) {
 
-        z[i] = x[i] * y[i];
-
-        if (x[i] != 0 && z[i] / x[i] != y[i]) {
+        if (x[i] != 0 && y[i] > INT_MAX / x[i]) {
             puts("ERROR: multiplication overflow.");
             return 1;
         }
+
+        z[i] = x[i] * y[i];
     }
 
     display(x,y,z,length);
