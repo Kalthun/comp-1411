@@ -14,11 +14,10 @@ int main() {
         return 1;
     }
 
-    int max_ab = ((a + b) + abs(a - b)) / 2;
-
-    int max_abc = ((max_ab + c) + abs(max_ab - c))/2;
-
     putchar('\n');
+
+    int max_ab = ((a + b) + abs(a - b)) / 2;
+    int max_abc = ((max_ab + c) + abs(max_ab - c))/2;
 
     printf("max(%d,%d,%d) = %d\n", a, b, c, max_abc);
 

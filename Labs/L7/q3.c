@@ -29,7 +29,5 @@ int main() {
     puts("===Test 3===");
     displayPattern(7);
 
-    putchar('\n');
-
     return 0;
 }

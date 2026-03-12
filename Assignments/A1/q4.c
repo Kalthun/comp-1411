@@ -14,11 +14,11 @@ int main() {
         return 1;
     }
 
+    putchar('\n');
+
     int hours = seconds / 3600;
     int minutes = seconds % 3600 / 60;
     int leftover_seconds = seconds % 60;
-
-    putchar('\n');
 
     printf("%d => %dh:%dm:%ds\n", seconds, hours, minutes, leftover_seconds);
 
