@@ -22,8 +22,8 @@ int main() {
         // Loop until we hit a non-space character
         do { temp = getchar(); } while (temp == ' ' || temp == '\t');
 
-        // Break loop if we hit newline or End Of File
-        if (temp == '\n' || temp == EOF) break;
+        // Break loop if we hit newline
+        if (temp == '\n') break;
 
         // Otherwise undo changes to input stream
         ungetc(temp, stdin);
