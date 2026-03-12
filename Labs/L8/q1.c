@@ -7,7 +7,7 @@ void wreBaW() {
     // BREAK CASE
     if (scanf("%c", &input) != 1) {
         puts("ERROR: invalid input.");
-        return 1;
+        return;
     }
 
     // BASE CASE
