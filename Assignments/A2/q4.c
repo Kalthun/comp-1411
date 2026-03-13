@@ -100,16 +100,18 @@ int main() {
             break;
     }
 
+    puts("===================");
     puts("PARKING LOT CHARGES");
     puts("===================");
     printf("Vehicle Type: %s\n", vehicle_name);
-    printf("TIME-IN:  %02d:%02d\n", hour_entered, minute_entered);
-    printf("TIME-OUT: %02d:%02d\n", hour_left, minute_left);
+    printf("TIME-IN:      %02d:%02d\n", hour_entered, minute_entered);
+    printf("TIME-OUT:     %02d:%02d\n", hour_left, minute_left);
     puts("===================");
     printf("Parking Time: %02d:%02d\n", total_hours, total_minutes);
     printf("Rounded Time:    %02d\n", rounded_hours);
     puts("===================");
-    printf("TOTAL COST: $%.2lf\n", total_charges);
+    printf("TOTAL COSTS: $%.2lf\n", total_charges);
+    puts("===================");
 
     return 0;
 }
